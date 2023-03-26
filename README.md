@@ -44,6 +44,8 @@
 [![](https://raw.githubusercontent.com/kaionn/kaionn/master/profile-summary-card-output/dracula/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![](https://raw.githubusercontent.com/kaionn/kaionn/master/profile-summary-card-output/dracula/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaionn&theme=dracula)
+
 [![](https://activity-graph.herokuapp.com/graph?username=kaionn&theme=github)](https://activity-graph.herokuapp.com/graph?username=kaionn&theme=github)
 [![](https://github-readme-streak-stats.herokuapp.com/?user=kaionn&theme=dark)](https://github-readme-streak-stats.herokuapp.com/?user=kaionn&theme=dark)
 
