@@ -66,14 +66,5 @@
 
 **Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/kaionn/kaionn/main/assets/bar_graph.png)
-
-
- Last Updated on 25/03/2023 19:35:39 UTC
-<!--END_SECTION:waka-->
-</details>
-
-
-[![Metrics](https://github.com/kaionn/kaionn/actions/workflows/main.yml/badge.svg)](https://github.com/kaionn/kaionn/actions/workflows/main.yml)
 
 ### Blog posts
