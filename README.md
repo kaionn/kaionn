@@ -4,10 +4,10 @@
   <a href="https://github.com/kaionn/">
     <img src="https://komarev.com/ghpvc/?username=kaionn" alt="kaionn" />
   </a>
-  <a href="http://twitter.com/kaion_eng">
+  <a href="http://twitter.com/kai0nnn">
     <img height="20" src="https://img.shields.io/twitter/follow/kaion_eng?label=Twitter&logo=twitter&style=flat" />
   </a>
-  <a href="https://github.com/kaion_eng">
+  <a href="https://github.com/kaionn">
     <img height="20" src="https://img.shields.io/github/followers/kaion_eng?label=follow&logo=github&style=flat" />
   </a>
 </p>
