@@ -1,70 +1,106 @@
-## 👋 Hi! I'm kaion
+<div align="center">
 
-<p align="left"> 
+<!-- Animated Header -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=600&lines=%F0%9F%91%8B+Hi%2C+I'm+kaion;Ruby+on+Rails+Developer;Building+cool+things+with+code" alt="Typing SVG" />
+
+<!-- Profile Views & Social Badges -->
+<p>
   <a href="https://github.com/kaionn/">
-    <img src="https://komarev.com/ghpvc/?username=kaionn" alt="kaionn" />
+    <img src="https://komarev.com/ghpvc/?username=kaionn&color=bd93f9&style=for-the-badge" alt="Profile Views" />
   </a>
-  <a href="http://twitter.com/kai0nnn">
-    <img height="20" src="https://img.shields.io/twitter/follow/kaion_eng?label=Twitter&logo=twitter&style=flat" />
+  <a href="https://twitter.com/kai0nnn">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://github.com/kaionn">
-    <img height="20" src="https://img.shields.io/github/followers/kaion_eng?label=follow&logo=github&style=flat" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="http://qiita.com/kaion">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/yutkat/contributions.svg" />
-  </a>
-  <a href="http://qiita.com/kaion">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/yutkat/posts.svg" />
+  <a href="https://qiita.com/kaion">
+    <img src="https://img.shields.io/badge/Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white" alt="Qiita" />
   </a>
 </p>
 
-<p align="left"> 
-  <a href="https://kaionn.github.io/">
-    <img alt="homepage" width="30px" src="https://simpleicons.org/icons/homeassistantcommunitystore.svg" />
-  </a>
-  <a href="https://twitter.com/kaion_eng">
-    <img alt="twitter" width="30px" src="https://simpleicons.org/icons/twitter.svg" />
-  </a>
-  <a href="https://qiita.com/kaion_eng">
-    <img alt="qiita" width="30px" src="https://simpleicons.org/icons/qiita.svg" />
-  </a>
-</p>
+</div>
 
+---
 
-<p align="left"> 
-  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaionn&layout=compact&count_private=true&show_icons=true&show_icons=true&theme=onedark" />
-  <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=kaionn&count_private=true&show_icons=true&show_icons=true&theme=onedark" />
-</p>
+## 🚀 Tech Stack
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=kaionn&theme=gruvbox)](https://github.com/ryo-ma/github-profile-trophy)
-[![](https://raw.githubusercontent.com/kaionn/kaionn/master/profile-summary-card-output/dracula/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/kaionn/kaionn/master/profile-summary-card-output/dracula/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/kaionn/kaionn/master/profile-summary-card-output/dracula/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+<div align="center">
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaionn&theme=dracula)
+### Languages & Frameworks
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+![Rails](https://img.shields.io/badge/Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-[![](https://activity-graph.herokuapp.com/graph?username=kaionn&theme=github)](https://activity-graph.herokuapp.com/graph?username=kaionn&theme=github)
-[![](https://github-readme-streak-stats.herokuapp.com/?user=kaionn&theme=dark)](https://github-readme-streak-stats.herokuapp.com/?user=kaionn&theme=dark)
+### Tools & Environment
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![iTerm2](https://img.shields.io/badge/iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### Development Environment
+</div>
 
-- Favorite Languages: Ruby
-- Editor: VSCode
-- Shell: zsh
-- Terminal: iTerm
-- OS: OSX
-- PC: Mac Book Pro
-- Keyboard: HHKB hybrid
-- Mouse: Magic Trackpad
-- Smartphone: iPhone
+---
 
-### Analysis
+## 📊 GitHub Stats
 
+<div align="center">
 
-**Timeline**
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=kaionn&show_icons=true&theme=dracula&count_private=true&hide_border=true&bg_color=0D1117" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaionn&layout=compact&theme=dracula&count_private=true&hide_border=true&bg_color=0D1117" />
 
+</div>
 
-### Blog posts
+<div align="center">
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=dracula&hide_border=true&bg_color=0D1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 💻 Development Environment
+
+| Category | Choice |
+|:--------:|:------:|
+| 🖥️ **OS** | macOS |
+| ⌨️ **Editor** | VS Code |
+| 🐚 **Shell** | zsh |
+| 📟 **Terminal** | iTerm2 |
+| ⌨️ **Keyboard** | HHKB Hybrid |
+| 🖱️ **Pointing** | Magic Trackpad |
+| ❤️ **Language** | Ruby |
+
+---
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+![Snake animation](https://raw.githubusercontent.com/kaionn/kaionn/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=100&section=footer" width="100%" />
+</div>
