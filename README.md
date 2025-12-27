@@ -51,7 +51,7 @@
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117)](https://git.io/streak-stats)
 
 </div>
 
