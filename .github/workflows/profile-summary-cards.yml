@@ -1,0 +1,31 @@
+name: GitHub Profile Summary Cards
+
+on:
+  # 毎日 UTC 0:00 に実行（JST 9:00）
+  schedule:
+    - cron: "0 0 * * *"
+  # 手動実行
+  workflow_dispatch:
+  # main ブランチへの push 時（初回生成用）
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 9
+          AUTO_PUSH: true

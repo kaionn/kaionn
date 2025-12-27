@@ -44,24 +44,19 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=kaionn&show_icons=true&theme=dracula&count_private=true&hide_border=true&bg_color=0D1117" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaionn&layout=compact&theme=dracula&count_private=true&hide_border=true&bg_color=0D1117" />
+<img src="./profile-summary-card-output/dracula/0-profile-details.svg" alt="Profile Details" />
+
+<img src="./profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Repos per Language" />
+<img src="./profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Language" />
+
+<img src="./profile-summary-card-output/dracula/3-stats.svg" alt="Stats" />
+<img src="./profile-summary-card-output/dracula/4-productive-time.svg" alt="Productive Time" />
 
 </div>
 
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
