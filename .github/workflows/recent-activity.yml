@@ -16,13 +16,62 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      USERNAME: ${{ github.repository_owner }}
+      MAX_LINES: "8"
 
     steps:
       - uses: actions/checkout@v4
 
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "docs: 最近のアクティビティを更新"
-          MAX_LINES: 8
+      # 既製アクション (github-activity-readme) はコメント・ラベル操作を除外できず
+      # PushEvent 非対応のため、gh api + jq で自作生成している
+      - name: Generate activity list
+        run: |
+          gh api "users/${USERNAME}/events/public?per_page=100" > /tmp/events.json
+          jq -r --argjson max "${MAX_LINES}" '
+            [ .[]
+              | {key: "\(.type)|\(.repo.name)",
+                 text: (
+                   if .type=="PushEvent" then
+                     "⬆️ Pushed to [\(.repo.name)](https://github.com/\(.repo.name))"
+                   elif .type=="IssuesEvent" and .payload.action=="opened" then
+                     "📝 Opened issue [#\(.payload.issue.number)](\(.payload.issue.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
+                   elif .type=="PullRequestEvent" and .payload.action=="opened" then
+                     "💪 Opened PR [#\(.payload.pull_request.number)](\(.payload.pull_request.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
+                   elif .type=="PullRequestEvent" and .payload.action=="closed" and .payload.pull_request.merged then
+                     "🎉 Merged PR [#\(.payload.pull_request.number)](\(.payload.pull_request.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
+                   elif .type=="ReleaseEvent" and .payload.action=="published" then
+                     "🚀 Published release [\(.payload.release.tag_name)](\(.payload.release.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
+                   elif .type=="CreateEvent" and .payload.ref_type=="repository" then
+                     "✨ Created repository [\(.repo.name)](https://github.com/\(.repo.name))"
+                   else empty end
+                 )}
+            ]
+            | reduce .[] as $i ([]; if (length > 0 and .[-1].key == $i.key) then . else . + [$i] end)
+            | .[0:$max] | to_entries | map("\(.key + 1). \(.value.text)") | join("\n")
+          ' /tmp/events.json > /tmp/activity.md
+          cat /tmp/activity.md
+
+      - name: Update README
+        run: |
+          awk '
+            /<!--START_SECTION:activity-->/ { print; system("cat /tmp/activity.md"); skip=1; next }
+            /<!--END_SECTION:activity-->/ { skip=0 }
+            !skip { print }
+          ' README.md > /tmp/README.new
+          mv /tmp/README.new README.md
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: 最近のアクティビティを更新"
+          # push トリガー時は summary-cards ワークフローと並走するため rebase してから push
+          git pull --rebase origin main
+          git push
