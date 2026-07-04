@@ -20,6 +20,16 @@
 
 ---
 
+## 👤 About Me
+
+- 🛠️ **Ruby on Rails** を軸に、**TypeScript / Next.js** でフロントエンドも書くWebエンジニア
+- 🤖 最近は **Claude Code** を使った開発ワークフローの自動化・エージェント活用に注力
+- 🧪 個人開発では小さなプロダクトを高速に作って検証するスタイル
+- ✍️ 学んだことは [Qiita](https://qiita.com/kaion) にアウトプット
+- 💬 気軽に [Twitter](https://twitter.com/kai0nnn) でどうぞ
+
+---
+
 ## 🚀 Tech Stack
 
 <div align="center">
@@ -59,6 +69,23 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117)](https://git.io/streak-stats)
 
 </div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
