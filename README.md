@@ -85,13 +85,13 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
+1. ⬆️ Pushed to [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
 2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-3. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+3. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
 4. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-5. 📝 Opened issue [#223](https://github.com/kaionn/pain-collector/issues/223) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-6. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-7. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+5. 📝 Opened issue [#224](https://github.com/kaionn/pain-collector/issues/224) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+6. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+7. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
 8. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 <!--END_SECTION:activity-->
 
