@@ -85,14 +85,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
-2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-3. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+2. 📝 Opened issue [#226](https://github.com/kaionn/pain-collector/issues/226) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+3. ⬆️ Pushed to [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
 4. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-5. 📝 Opened issue [#224](https://github.com/kaionn/pain-collector/issues/224) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-6. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-7. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
-8. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+5. 💪 Opened PR [#1](null) in [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
+6. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+7. ⬆️ Pushed to [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
+8. ⬆️ Pushed to [kaionn/mvp-template](https://github.com/kaionn/mvp-template)
 <!--END_SECTION:activity-->
 
 ---
