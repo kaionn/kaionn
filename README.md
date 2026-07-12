@@ -85,14 +85,7 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-3. 📝 Opened issue [#231](https://github.com/kaionn/pain-collector/issues/231) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-4. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-5. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-6. 📝 Opened issue [#1221](https://github.com/ogulcancelik/herdr/issues/1221) in [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)
-7. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-8. 📝 Opened issue [#229](https://github.com/kaionn/pain-collector/issues/229) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 <!--END_SECTION:activity-->
 
 ---
