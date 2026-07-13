@@ -85,7 +85,7 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+
 <!--END_SECTION:activity-->
 
 ---
