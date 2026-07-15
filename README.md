@@ -85,7 +85,8 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 <!--END_SECTION:activity-->
 
 ---
