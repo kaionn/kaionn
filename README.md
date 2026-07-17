@@ -85,14 +85,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-3. ⬆️ Pushed to [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
-4. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
-5. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-6. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
-7. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-8. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+1. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+2. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+3. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+4. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+5. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+6. ⬆️ Pushed to [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
+7. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+8. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 <!--END_SECTION:activity-->
 
 ---
