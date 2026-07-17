@@ -1,9 +1,10 @@
 name: Update Recent Activity
 
 on:
-  # 毎日 UTC 0:00 に実行（JST 9:00）※ 他ワークフローと同時刻
+  # 毎日 UTC 20:40 に実行（JST 5:40）。schedule は実測 20〜60 分遅延するため
+  # 実際の反映は JST 6:00 前後になる想定。ジャスト時刻は混雑するので分をずらしている
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "40 20 * * *"
   # 手動実行
   workflow_dispatch:
   # main ブランチへの push 時（初回生成用）
