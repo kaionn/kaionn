@@ -86,13 +86,13 @@
 
 <!--START_SECTION:activity-->
 1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-2. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
-3. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+2. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+3. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 4. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
 5. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-6. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-7. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-8. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+6. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+7. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+8. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
 <!--END_SECTION:activity-->
 
 ---
