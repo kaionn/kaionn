@@ -86,13 +86,13 @@
 
 <!--START_SECTION:activity-->
 1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-2. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-3. 🚀 Published release [v1.1.0](https://github.com/kaionn/draftsmith/releases/tag/v1.1.0) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-4. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-5. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-6. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
-7. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-8. 📝 Opened issue [#5](https://github.com/kaionn/lazy-product-lab/issues/5) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+2. ⬆️ Pushed to [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
+3. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+4. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+5. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+6. 📝 Opened issue [#7](https://github.com/kaionn/lazy-product-lab/issues/7) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+7. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+8. ⬆️ Pushed to [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
 <!--END_SECTION:activity-->
 
 ---
