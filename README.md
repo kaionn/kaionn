@@ -89,10 +89,10 @@
 2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 3. 📝 Opened issue [#235](https://github.com/kaionn/pain-collector/issues/235) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 4. 📝 Opened issue [#5](https://github.com/kaionn/draftsmith/issues/5) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-5. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-6. 📝 Opened issue [#7](https://github.com/kaionn/lazy-product-lab/issues/7) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
-7. 💪 Opened PR [#6](null) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
-8. 🚀 Published release [v1.2.0](https://github.com/kaionn/draftsmith/releases/tag/v1.2.0) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+5. 📝 Opened issue [#7](https://github.com/kaionn/lazy-product-lab/issues/7) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+6. 💪 Opened PR [#6](null) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+7. 🚀 Published release [v1.2.0](https://github.com/kaionn/draftsmith/releases/tag/v1.2.0) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+8. 📝 Opened issue [#5](https://github.com/kaionn/lazy-product-lab/issues/5) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
 <!--END_SECTION:activity-->
 
 ---
