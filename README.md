@@ -85,14 +85,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-2. 💪 Opened PR [#6](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-3. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-4. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-5. 📝 Opened issue [#235](https://github.com/kaionn/pain-collector/issues/235) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-6. 📝 Opened issue [#5](https://github.com/kaionn/draftsmith/issues/5) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-7. 📝 Opened issue [#7](https://github.com/kaionn/lazy-product-lab/issues/7) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
-8. 💪 Opened PR [#6](null) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
+1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+2. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+3. 💪 Opened PR [#6](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+4. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+5. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+6. 📝 Opened issue [#235](https://github.com/kaionn/pain-collector/issues/235) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+7. 📝 Opened issue [#5](https://github.com/kaionn/draftsmith/issues/5) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+8. 📝 Opened issue [#7](https://github.com/kaionn/lazy-product-lab/issues/7) in [kaionn/lazy-product-lab](https://github.com/kaionn/lazy-product-lab)
 <!--END_SECTION:activity-->
 
 ---
