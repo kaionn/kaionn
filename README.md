@@ -91,8 +91,6 @@
 4. 💪 Opened PR [#12](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 5. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 6. 💪 Opened PR [#10](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-7. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-8. 💪 Opened PR [#6](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 <!--END_SECTION:activity-->
 
 ---
