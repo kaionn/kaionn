@@ -85,14 +85,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-2. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-3. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-4. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-5. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-6. 📝 Opened issue [#14](https://github.com/kaionn/draftsmith/issues/14) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-7. 💪 Opened PR [#13](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-8. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+3. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+4. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+5. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+6. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+7. 📝 Opened issue [#14](https://github.com/kaionn/draftsmith/issues/14) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+8. 💪 Opened PR [#13](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 <!--END_SECTION:activity-->
 
 ---
