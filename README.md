@@ -92,7 +92,7 @@
 5. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
 6. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 7. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-8. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+8. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 <!--END_SECTION:activity-->
 
 ---
