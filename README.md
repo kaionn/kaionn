@@ -91,8 +91,8 @@
 4. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 5. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 6. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-7. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-8. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+7. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+8. 📝 Opened issue [#14](https://github.com/kaionn/draftsmith/issues/14) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 <!--END_SECTION:activity-->
 
 ---
