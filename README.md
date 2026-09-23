@@ -88,11 +88,9 @@
 1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 2. 💪 Opened PR [#17](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 3. 📝 Opened issue [#3](https://github.com/kaionn/pi-auto-memory/issues/3) in [kaionn/pi-auto-memory](https://github.com/kaionn/pi-auto-memory)
-4. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-5. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-6. ⬆️ Pushed to [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-7. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-8. 📝 Opened issue [#14](https://github.com/kaionn/draftsmith/issues/14) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+4. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+5. 📝 Opened issue [#14](https://github.com/kaionn/draftsmith/issues/14) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+6. 💪 Opened PR [#13](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
 <!--END_SECTION:activity-->
 
 ---
