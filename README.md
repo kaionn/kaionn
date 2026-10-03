@@ -86,11 +86,13 @@
 
 <!--START_SECTION:activity-->
 1. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-2. 💪 Opened PR [#17](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-3. 📝 Opened issue [#3](https://github.com/kaionn/pi-auto-memory/issues/3) in [kaionn/pi-auto-memory](https://github.com/kaionn/pi-auto-memory)
-4. 💪 Opened PR [#16](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-5. 📝 Opened issue [#14](https://github.com/kaionn/draftsmith/issues/14) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
-6. 💪 Opened PR [#13](null) in [kaionn/draftsmith](https://github.com/kaionn/draftsmith)
+2. 📝 Opened issue [#252](https://github.com/kaionn/pain-collector/issues/252) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+3. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+4. 💪 Opened PR [#4](null) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+5. 💪 Opened PR [#1](null) in [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+6. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+7. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+8. 💪 Opened PR [#250](null) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 <!--END_SECTION:activity-->
 
 ---
