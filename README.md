@@ -85,14 +85,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 📝 Opened issue [#268](https://github.com/kaionn/pain-collector/issues/268) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. 📝 Opened issue [#271](https://github.com/kaionn/pain-collector/issues/271) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 2. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-3. 📝 Opened issue [#265](https://github.com/kaionn/pain-collector/issues/265) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-4. 💪 Opened PR [#1](null) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
-5. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-6. 💪 Opened PR [#9](null) in [kaionn/signal-lab](https://github.com/kaionn/signal-lab)
-7. 💪 Opened PR [#1](null) in [kaionn/mogumogu-checker](https://github.com/kaionn/mogumogu-checker)
-8. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+3. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+4. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+5. 💪 Opened PR [#9](null) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+6. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+7. 📝 Opened issue [#268](https://github.com/kaionn/pain-collector/issues/268) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+8. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
 <!--END_SECTION:activity-->
 
 ---
