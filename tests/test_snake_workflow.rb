@@ -6,80 +6,35 @@ class SnakeWorkflowTest < Minitest::Test
     SnakeWorkflow.load_file(File.expand_path('../.github/workflows/snake.yml', __dir__))
   end
 
-  def test_current_structure_has_only_job_scoped_contents_write
+  def test_permissions_are_separated
     result = SnakeWorkflow.check(fixture)
-    assert_equal 'output', result.fetch(:target_branch)
-    assert_equal true, result.fetch(:contents_write_configured)
+    assert_equal({}, result[:generation_permissions])
+    assert_equal({ contents: 'write' }, result[:publication_permissions])
+    assert_equal false, result[:execution_verified]
   end
 
-  def test_candidate_job_scoped_contents_write_is_recognized_in_memory_only
-    workflow = fixture
-    workflow['jobs']['generate']['permissions'] = { 'contents' => 'write' }
-    assert_equal true, SnakeWorkflow.check(workflow).fetch(:contents_write_configured)
-  end
-
-  def test_missing_permission_is_reported_without_executing_workflow
-    workflow = fixture
-    workflow['jobs']['generate'].delete('permissions')
-    result = SnakeWorkflow.check(workflow)
-    assert_equal false, result.fetch(:contents_write_configured)
-    assert_equal false, result.fetch(:execution_verified)
-  end
-
-  def test_workflow_wide_write_is_rejected
-    ['write-all', { 'contents' => 'write' }].each do |permissions|
-      workflow = fixture
-      workflow['permissions'] = permissions
-      assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
-    end
-  end
-
-  def test_extra_job_permissions_are_rejected
-    workflow = fixture
-    workflow['jobs']['generate']['permissions'] = { 'contents' => 'write', 'issues' => 'write' }
-    assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
-  end
-
-  def test_privileged_pull_request_trigger_is_rejected
-    workflow = fixture
-    (workflow['on'] || workflow[true])['pull_request_target'] = {}
-    assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
-  end
-
-  def test_destination_and_token_changes_are_rejected
-    workflow = fixture
-    workflow['jobs']['generate']['steps'][1]['with']['target_branch'] = 'main'
-    assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
-    workflow = fixture
-    workflow['jobs']['generate']['steps'][1]['env']['GITHUB_TOKEN'] = '${{ secrets.OTHER_TOKEN }}'
-    assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
-  end
-
-  def test_additional_token_paths_and_action_fields_are_rejected
+  def test_unsafe_changes_are_rejected
     mutations = [
-      ->(w) { w['env'] = { 'GH_PAT' => '${{ secrets.OTHER_TOKEN }}' } },
-      ->(w) { w['jobs']['generate']['env'] = { 'GH_PAT' => '${{ secrets.OTHER_TOKEN }}' } },
-      ->(w) { w['jobs']['generate']['steps'][0]['env'] = { 'GH_PAT' => '${{ secrets.OTHER_TOKEN }}' } },
-      ->(w) { w['jobs']['generate']['steps'][0]['with']['github_token'] = '${{ secrets.OTHER_TOKEN }}' },
-      ->(w) { w['jobs']['generate']['steps'][1]['with']['token'] = '${{ secrets.OTHER_TOKEN }}' },
-      ->(w) { w['jobs']['generate']['steps'][1]['run'] = 'echo changed' }
+      ->(w) { w['jobs']['publish']['steps'][1]['run'] += "bash ../incoming/github-contribution-grid-snake.svg\n" },
+      ->(w) { w['permissions'] = { 'contents' => 'write' } },
+      ->(w) { w['jobs']['generate']['permissions'] = { 'contents' => 'read' } },
+      ->(w) { w['jobs']['publish']['permissions']['actions'] = 'write' },
+      ->(w) { w['concurrency']['cancel-in-progress'] = true },
+      ->(w) { (w['on'] || w[true])['pull_request_target'] = nil },
+      ->(w) { w['jobs']['publish'].delete('needs') },
+      ->(w) { w['jobs']['publish'].delete('if') },
+      ->(w) { w['jobs']['generate']['steps'][0]['uses'] = 'Platane/snk/svg-only@v3' },
+      ->(w) { w['jobs']['generate']['steps'][1]['with']['path'] = 'dist' },
+      ->(w) { w['jobs']['publish']['steps'][0]['with']['run-id'] = '123' },
+      ->(w) { w['jobs']['publish']['steps'][1]['env']['GITHUB_TOKEN'] = '${{ secrets.PAT }}' },
+      ->(w) { w['jobs']['publish']['steps'][1]['run'].sub!('git push origin', 'git push --force origin') },
+      ->(w) { w['jobs']['publish']['steps'][1]['run'].sub!('git fetch --no-tags', 'git fetch') },
+      ->(w) { w['jobs']['publish']['steps'] << { 'run' => 'incoming/code.sh' } }
     ]
-    mutations.each do |mutation|
-      workflow = fixture
-      mutation.call(workflow)
-      assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
-    end
-  end
-
-  def test_missing_generator_is_rejected
-    workflow = fixture
-    workflow['jobs']['generate']['steps'].shift
-    assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
-  end
-
-  def test_invalid_structure_is_rejected
-    [nil, [], { 'jobs' => [] }].each do |workflow|
-      assert_raises(ArgumentError) { SnakeWorkflow.check(workflow) }
+    mutations.each do |mutate|
+      w = fixture
+      mutate.call(w)
+      assert_raises(ArgumentError) { SnakeWorkflow.check(w) }
     end
   end
 end

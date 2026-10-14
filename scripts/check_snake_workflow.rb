@@ -1,7 +1,14 @@
 require 'yaml'
 require 'json'
+require 'digest'
 
 module SnakeWorkflow
+  PINS = %w[
+    Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+    actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+    actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+  ].freeze
+
   def self.load_file(file)
     YAML.safe_load(File.read(file), permitted_classes: [], permitted_symbols: [], aliases: false)
   end
@@ -10,48 +17,43 @@ module SnakeWorkflow
     raise ArgumentError, message unless condition
   end
 
-  def self.check(workflow)
-    require_condition(workflow.is_a?(Hash), 'workflow must be a mapping')
-    require_condition((workflow.keys - ['name', 'on', true, 'jobs', 'permissions']).empty?, 'additional workflow fields are prohibited')
-    events_keys = ['on', true].select { |key| workflow.key?(key) }
-    require_condition(events_keys.length == 1, 'one unambiguous event mapping is required')
-    events = workflow[events_keys.first]
-    require_condition(events.is_a?(Hash) && events.keys.sort == %w[push schedule workflow_dispatch], 'only the existing main/schedule/manual triggers are allowed')
-    require_condition(events['push'].is_a?(Hash) && events['push']['branches'] == ['main'], 'push must target main')
-    require_condition(events['schedule'] == [{ 'cron' => '0 0 * * *' }], 'schedule must remain unchanged')
-    require_condition([nil, {}].include?(events['workflow_dispatch']), 'manual inputs must remain unchanged')
-
-    require_condition([nil, {}, { 'contents' => 'read' }].include?(workflow['permissions']), 'workflow-wide write permission is prohibited')
-    jobs = workflow['jobs']
-    require_condition(jobs.is_a?(Hash) && jobs.keys == ['generate'], 'only the existing generate job is allowed')
-    job = jobs['generate']
-    require_condition(job.is_a?(Hash), 'generate must be a mapping')
-    require_condition((job.keys - ['runs-on', 'timeout-minutes', 'steps', 'permissions']).empty?, 'additional job fields are prohibited')
-    require_condition(job['runs-on'] == 'ubuntu-latest' && job['timeout-minutes'] == 10, 'runner and timeout must remain unchanged')
-    permissions = job['permissions']
-    require_condition([nil, {}, { 'contents' => 'read' }, { 'contents' => 'write' }].include?(permissions), 'only job-scoped contents permission is allowed')
-    steps = job['steps']
-    require_condition(steps.is_a?(Array) && steps.length == 2 && steps.all? { |step| step.is_a?(Hash) }, 'two existing action steps are required')
-    generator, publish = steps
-    require_condition((generator.keys - ['name', 'uses', 'with']).empty? && (publish.keys - ['name', 'uses', 'with', 'env']).empty?, 'additional action fields are prohibited')
-    require_condition(generator['uses'] == 'Platane/snk/svg-only@v3', 'generator action must remain unchanged')
-    generator_inputs = generator['with']
-    require_condition(generator_inputs.is_a?(Hash) && generator_inputs['github_user_name'] == '${{ github.repository_owner }}', 'generator owner must remain unchanged')
-    require_condition(generator_inputs.keys.sort == %w[github_user_name outputs], 'additional generator inputs are prohibited')
-    outputs = generator_inputs['outputs']
-    require_condition(outputs.is_a?(String) && outputs.lines.map(&:strip).reject(&:empty?) == [
-      'dist/github-contribution-grid-snake.svg',
-      'dist/github-contribution-grid-snake-dark.svg?palette=github-dark'
-    ], 'only the existing SVG outputs are allowed')
-    require_condition(publish['uses'] == 'crazy-max/ghaction-github-pages@v4', 'publish action must remain unchanged')
-    require_condition(publish['with'].is_a?(Hash) && publish['with']['target_branch'] == 'output' && publish['with']['build_dir'] == 'dist', 'publish destination must remain output/dist')
-    require_condition(publish['with'].keys.sort == %w[build_dir target_branch], 'additional publish inputs are prohibited')
-    require_condition(publish['env'] == { 'GITHUB_TOKEN' => '${{ secrets.GITHUB_TOKEN }}' }, 'only the existing Actions token is allowed')
-    {
-      target_branch: 'output',
-      contents_write_configured: permissions == { 'contents' => 'write' },
-      execution_verified: false
-    }
+  def self.check(w)
+    require_condition(w.is_a?(Hash), 'workflow must be a mapping')
+    require_condition((w.keys - ['name', 'on', true, 'permissions', 'concurrency', 'jobs']).empty?, 'unexpected workflow field')
+    events = w['on'] || w[true]
+    require_condition(events == { 'schedule' => [{ 'cron' => '0 0 * * *' }], 'workflow_dispatch' => nil, 'push' => { 'branches' => ['main'] } }, 'triggers must remain unchanged')
+    require_condition(w['permissions'] == {}, 'default permissions must be empty')
+    require_condition(w['concurrency'] == { 'group' => 'snake-output', 'cancel-in-progress' => false }, 'publishes must serialize without cancellation')
+    jobs = w['jobs']
+    require_condition(jobs.is_a?(Hash) && jobs.keys.sort == %w[generate publish], 'only generate and publish are allowed')
+    generate, publish = jobs.values_at('generate', 'publish')
+    require_condition(generate['permissions'] == {}, 'generation must have no repository permissions')
+    require_condition(publish['permissions'] == { 'contents' => 'write' }, 'only publication may write contents')
+    require_condition(publish['needs'] == 'generate' && publish['if'] == "github.ref == 'refs/heads/main'", 'publication requires successful main generation')
+    [generate, publish].each do |job|
+      require_condition(job['runs-on'] == 'ubuntu-latest' && job['timeout-minutes'] == 10, 'runner and timeout changed')
+      require_condition((job.keys - %w[runs-on timeout-minutes permissions steps needs if]).empty?, 'unexpected job field')
+    end
+    g, u = generate['steps']
+    d, p = publish['steps']
+    require_condition(generate['steps'].size == 2 && publish['steps'].size == 2, 'unexpected steps')
+    require_condition([g['uses'], u['uses'], d['uses']] == PINS, 'Actions must match reviewed full SHAs')
+    require_condition(g.keys.sort == %w[name uses with] && g['with'] == {
+      'github_user_name' => '${{ github.repository_owner }}',
+      'outputs' => "dist/github-contribution-grid-snake.svg\ndist/github-contribution-grid-snake-dark.svg?palette=github-dark\n"
+    }, 'unexpected generator inputs')
+    require_condition(u.keys.sort == %w[name uses with] && u['with'] == {
+      'name' => 'snake-svg', 'path' => "dist/github-contribution-grid-snake.svg\ndist/github-contribution-grid-snake-dark.svg\n",
+      'if-no-files-found' => 'error', 'retention-days' => 1
+    }, 'upload only the two SVGs')
+    require_condition(d.keys.sort == %w[name uses with] && d['with'] == { 'name' => 'snake-svg', 'path' => 'incoming' }, 'download only this run artifact')
+    require_condition(p.keys.sort == %w[env name run shell] && p['shell'] == 'bash' && p['env'] == { 'GITHUB_TOKEN' => '${{ github.token }}' }, 'unexpected publisher fields or credential')
+    script = p['run']
+    require_condition(Digest::SHA256.hexdigest(script) == '2e966278d3d4eb296d66df8de3ef4021c3cb5354ca545e6bd43f7faba4a72f4f', 'publisher script must match the reviewed implementation')
+    require_condition(script.include?('git fetch --no-tags origin refs/heads/output') && script.include?('git checkout -B output FETCH_HEAD'), 'retain existing output ancestry')
+    require_condition(script.include?('git push origin HEAD:refs/heads/output') && !script.match?(/--force|\+HEAD|--orphan|eval\b|source\b/), 'publication must not force push or execute artifact code')
+    require_condition(script.include?('git add -- "${files[@]}"') && script.include?('test ! -L "incoming/$file"'), 'stage only regular allowlisted files')
+    { target_branch: 'output', generation_permissions: {}, publication_permissions: { contents: 'write' }, execution_verified: false }
   end
 end
 

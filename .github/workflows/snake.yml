@@ -4,33 +4,90 @@ on:
   # 毎日 UTC 0:00 に実行（JST 9:00）
   schedule:
     - cron: "0 0 * * *"
-  # 手動実行も可能
   workflow_dispatch:
-  # main ブランチへの push 時
   push:
     branches:
       - main
+
+permissions: {}
+
+concurrency:
+  group: snake-output
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    permissions:
-      contents: write
-
+    permissions: {}
     steps:
       - name: Generate Snake Animation
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Upload SVGs
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
-          target_branch: output
-          build_dir: dist
+          name: snake-svg
+          path: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Download SVGs from this run
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: snake-svg
+          path: incoming
+      - name: Commit SVGs to output without rewriting history
+        shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          files=(github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg)
+          test "$(find incoming -mindepth 1 -maxdepth 1 | wc -l)" -eq 2
+          for file in "${files[@]}"; do
+            test -f "incoming/$file" && test ! -L "incoming/$file" && test -s "incoming/$file"
+          done
+
+          # Credentials are scoped to this step's environment, never saved in Git config.
+          export GIT_CONFIG_COUNT=2
+          export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
+          GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          export GIT_CONFIG_VALUE_0
+          export GIT_CONFIG_KEY_1=core.hooksPath
+          export GIT_CONFIG_VALUE_1=/dev/null
+          export GIT_TERMINAL_PROMPT=0
+          git init --initial-branch=output publication
+          cd publication
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads origin refs/heads/output; then
+            git fetch --no-tags origin refs/heads/output
+            git checkout -B output FETCH_HEAD
+          else
+            status=$?
+            test "$status" -eq 2
+          fi
+          for file in "${files[@]}"; do
+            rm -f -- "$file"
+            cp -- "../incoming/$file" "$file"
+          done
+          git add -- "${files[@]}"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update Snake SVGs'
+          git push origin HEAD:refs/heads/output
