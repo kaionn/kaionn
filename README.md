@@ -85,13 +85,13 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 📝 Opened issue [#285](https://github.com/kaionn/pain-collector/issues/285) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. 📝 Opened issue [#286](https://github.com/kaionn/pain-collector/issues/286) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-3. 📝 Opened issue [#284](https://github.com/kaionn/pain-collector/issues/284) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+3. 📝 Opened issue [#285](https://github.com/kaionn/pain-collector/issues/285) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 4. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-5. ⬆️ Pushed to [kaionn/mogumogu-checker](https://github.com/kaionn/mogumogu-checker)
+5. 📝 Opened issue [#284](https://github.com/kaionn/pain-collector/issues/284) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 6. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-7. 📝 Opened issue [#277](https://github.com/kaionn/pain-collector/issues/277) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+7. ⬆️ Pushed to [kaionn/mogumogu-checker](https://github.com/kaionn/mogumogu-checker)
 8. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 <!--END_SECTION:activity-->
 
