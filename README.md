@@ -85,7 +85,7 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 📝 Opened issue [#303](https://github.com/kaionn/pain-collector/issues/303) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. 📝 Opened issue [#305](https://github.com/kaionn/pain-collector/issues/305) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 2. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 3. 📝 Opened issue [#301](https://github.com/kaionn/pain-collector/issues/301) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 4. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
