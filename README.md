@@ -85,14 +85,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
-2. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-3. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
-4. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-5. 💪 Opened PR [#2](null) in [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
-6. 💪 Opened PR [#12](null) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-7. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-8. 📝 Opened issue [#305](https://github.com/kaionn/pain-collector/issues/305) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. 💪 Opened PR [#2](null) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+2. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+3. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+4. ⬆️ Pushed to [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+5. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+6. 💪 Opened PR [#2](null) in [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+7. 💪 Opened PR [#12](null) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+8. ⬆️ Pushed to [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 <!--END_SECTION:activity-->
 
 ---
