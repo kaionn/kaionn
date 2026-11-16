@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=C9B6F0&height=180&section=header&text=kaion&fontSize=80&fontColor=2D1B4E&fontAlignY=40&desc=web%20apps%20%26%20browser%20games&descSize=20&descAlignY=60#gh-light-mode-only" width="100%" alt="header" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=180&section=header&text=kaion&fontSize=80&fontColor=F8F8F2&fontAlignY=40&desc=web%20apps%20%26%20browser%20games&descSize=20&descAlignY=60#gh-dark-mode-only" width="100%" alt="header" />
+<img src="./docs/profile-banners/header-light.svg#gh-light-mode-only" width="100%" alt="header" />
+<img src="./docs/profile-banners/header-dark.svg#gh-dark-mode-only" width="100%" alt="header" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games#gh-light-mode-only" alt="Typing SVG" />
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games#gh-dark-mode-only" alt="Typing SVG" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games" alt="Typing SVG" />
+</picture>
 
 <p>
   <a href="https://github.com/kaionn">
@@ -129,8 +131,10 @@
 <img src="./profile-summary-card-output/dracula/3-stats.svg#gh-dark-mode-only" alt="Stats" />
 <img src="./profile-summary-card-output/dracula/4-productive-time.svg#gh-dark-mode-only" alt="Productive Time" />
 
-<img src="https://streak-stats.demolab.com?user=kaionn&theme=default&hide_border=true#gh-light-mode-only" alt="GitHub Streak" />
-<img src="https://streak-stats.demolab.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117#gh-dark-mode-only" alt="GitHub Streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117" />
+  <img src="https://streak-stats.demolab.com?user=kaionn&theme=default&hide_border=true" alt="GitHub Streak" />
+</picture>
 
 </div>
 
@@ -140,8 +144,10 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=kaionn&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8#gh-light-mode-only" alt="Trophies" />
-<img src="https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=8#gh-dark-mode-only" alt="Trophies" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kaionn&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies" />
+</picture>
 
 </div>
 
@@ -165,8 +171,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=github-light&hide_border=true#gh-light-mode-only" alt="Activity Graph" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=dracula&hide_border=true&bg_color=0D1117#gh-dark-mode-only" alt="Activity Graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=dracula&hide_border=true&bg_color=0D1117" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=github-light&hide_border=true" alt="Activity Graph" />
+</picture>
 
 </div>
 
@@ -199,7 +207,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=C9B6F0&height=100&section=footer#gh-light-mode-only" width="100%" alt="footer" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=100&section=footer#gh-dark-mode-only" width="100%" alt="footer" />
+<img src="./docs/profile-banners/footer-light.svg#gh-light-mode-only" width="100%" alt="footer" />
+<img src="./docs/profile-banners/footer-dark.svg#gh-dark-mode-only" width="100%" alt="footer" />
 
 </div>
