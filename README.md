@@ -1,132 +1,29 @@
-<div align="center">
+# kaion
 
-<!-- Animated Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=600&lines=%F0%9F%91%8B+Hi%2C+I'm+kaion;Ruby+on+Rails+Developer;Building+cool+things+with+code" alt="Typing SVG" />
+ブラウザで遊べるゲームと、小さなウェブアプリを作っています。
 
-<!-- Profile Views & Social Badges -->
-<p>
-  <a href="https://github.com/kaionn/">
-    <img src="https://komarev.com/ghpvc/?username=kaionn&color=bd93f9&style=for-the-badge" alt="Profile Views" />
-  </a>
-  <a href="https://twitter.com/kai0nnn">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://qiita.com/kaion">
-    <img src="https://img.shields.io/badge/Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white" alt="Qiita" />
-  </a>
-</p>
+Building small web apps and browser games, then putting them online.
 
-</div>
+[X](https://x.com/kai0nnn) · [Qiita](https://qiita.com/kaion)
 
----
+## Now building
 
-## 👤 About Me
+- **[重力に従わない書道教室](https://gravity-shodo.kaion-lab.com/)** — 書いた線が、時間とともに空へ昇っていく書道です。ブラウザで遊べます。
+- **[裏切りリバーシ](https://uragiri-reversi.kaion-engin.workers.dev)** — 石が寝返り、しゃべり出すリバーシです。ブラウザで遊べます。
+- **[Tech News Daily](https://tech-news.kaion-lab.com/)** — 毎朝更新する、テックニュースのダイジェストです。仕組みは [tech-news-daily](https://github.com/kaionn/tech-news-daily) にあります。
+- **[Tech Learning Daily](https://tech-learn.kaion-lab.com/)** — 毎朝更新する、技術の基礎解説です。仕組みは [tech-learning-daily](https://github.com/kaionn/tech-learning-daily) にあります。
 
-- 🛠️ **Ruby on Rails** を軸に、**TypeScript / Next.js** でフロントエンドも書くWebエンジニア
-- 🤖 最近は **Claude Code** を使った開発ワークフローの自動化・エージェント活用に注力
-- 🧪 個人開発では小さなプロダクトを高速に作って検証するスタイル
-- ✍️ 学んだことは [Qiita](https://qiita.com/kaion) にアウトプット
-- 💬 気軽に [Twitter](https://twitter.com/kai0nnn) でどうぞ
+## Tech stack
 
----
+公開リポジトリで使っているものです。
 
-## 🚀 Tech Stack
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-<div align="center">
+## GitHub
 
-### Languages & Frameworks
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Rails](https://img.shields.io/badge/Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-### Tools & Environment
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![iTerm2](https://img.shields.io/badge/iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="./profile-summary-card-output/dracula/0-profile-details.svg" alt="Profile Details" />
-
-<img src="./profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Repos per Language" />
-<img src="./profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Language" />
-
-<img src="./profile-summary-card-output/dracula/3-stats.svg" alt="Stats" />
-<img src="./profile-summary-card-output/dracula/4-productive-time.svg" alt="Productive Time" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## ⚡ Recent Activity
-
-<!--START_SECTION:activity-->
-1. 💪 Opened PR [#2](null) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-2. 💪 Opened PR [#2](null) in [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
-3. 💪 Opened PR [#12](null) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-4. 📝 Opened issue [#305](https://github.com/kaionn/pain-collector/issues/305) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
-<!--END_SECTION:activity-->
-
----
-
-## 📈 Activity Graph
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=dracula&hide_border=true&bg_color=0D1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-## 💻 Development Environment
-
-| Category | Choice |
-|:--------:|:------:|
-| 🖥️ **OS** | macOS |
-| ⌨️ **Editor** | VS Code |
-| 🐚 **Shell** | zsh |
-| 📟 **Terminal** | iTerm2 |
-| ⌨️ **Keyboard** | HHKB Hybrid |
-| 🖱️ **Pointing** | Magic Trackpad |
-| ❤️ **Language** | Ruby |
-
----
-
-<div align="center">
-
-### 🐍 Contribution Snake
-
-![Snake animation](https://raw.githubusercontent.com/kaionn/kaionn/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=100&section=footer" width="100%" />
-</div>
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaionn&show_icons=true&hide_border=true&theme=default#gh-light-mode-only)](https://github.com/kaionn)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaionn&show_icons=true&hide_border=true&theme=github_dark#gh-dark-mode-only)](https://github.com/kaionn)
