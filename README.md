@@ -83,7 +83,7 @@
   <tr>
     <td width="50%" valign="top" align="center">
       <a href="https://tech-news.kaion-lab.com/">
-        <img src="./docs/profile-cards/tech-news.png" alt="Tech News Daily" width="100%" />
+        <img src="./docs/profile-cards/tech-news.png" alt="Tech News Daily の題字と「今朝のテックを、ひと目で。」" width="100%" />
       </a>
       <p>
         <strong>Tech News Daily</strong><br />
@@ -93,7 +93,7 @@
     </td>
     <td width="50%" valign="top" align="center">
       <a href="https://tech-learn.kaion-lab.com/">
-        <img src="./docs/profile-cards/tech-learn.png" alt="Tech Learning Daily" width="100%" />
+        <img src="./docs/profile-cards/tech-learn.png" alt="Tech Learning Daily の題字と「なぜ？が解ける、毎朝の基礎解説。」" width="100%" />
       </a>
       <p>
         <strong>Tech Learning Daily</strong><br />
