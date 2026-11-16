@@ -1,29 +1,204 @@
-# kaion
+<div align="center">
 
-ブラウザで遊べるゲームと、小さなウェブアプリを作っています。
+<img src="https://capsule-render.vercel.app/api?type=waving&color=C9B6F0&height=180&section=header&text=kaion&fontSize=80&fontColor=2D1B4E&fontAlignY=40&desc=web%20apps%20%26%20browser%20games&descSize=20&descAlignY=60#gh-light-mode-only" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=180&section=header&text=kaion&fontSize=80&fontColor=F8F8F2&fontAlignY=40&desc=web%20apps%20%26%20browser%20games&descSize=20&descAlignY=60#gh-dark-mode-only" width="100%" alt="header" />
 
-Building small web apps and browser games, then putting them online.
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games#gh-light-mode-only" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games#gh-dark-mode-only" alt="Typing SVG" />
 
-[X](https://x.com/kai0nnn) · [Qiita](https://qiita.com/kaion)
+<p>
+  <a href="https://github.com/kaionn">
+    <img src="https://komarev.com/ghpvc/?username=kaionn&color=bd93f9&style=for-the-badge" alt="Profile Views" />
+  </a>
+  <a href="https://x.com/kai0nnn">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="https://qiita.com/kaion">
+    <img src="https://img.shields.io/badge/Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white" alt="Qiita" />
+  </a>
+</p>
 
-## Now building
+</div>
 
-- **[重力に従わない書道教室](https://gravity-shodo.kaion-lab.com/)** — 書いた線が、時間とともに空へ昇っていく書道です。ブラウザで遊べます。
-- **[裏切りリバーシ](https://uragiri-reversi.kaion-engin.workers.dev)** — 石が寝返り、しゃべり出すリバーシです。ブラウザで遊べます。
-- **[Tech News Daily](https://tech-news.kaion-lab.com/)** — 毎朝更新する、テックニュースのダイジェストです。仕組みは [tech-news-daily](https://github.com/kaionn/tech-news-daily) にあります。
-- **[Tech Learning Daily](https://tech-learn.kaion-lab.com/)** — 毎朝更新する、技術の基礎解説です。仕組みは [tech-learning-daily](https://github.com/kaionn/tech-learning-daily) にあります。
+---
 
-## Tech stack
+## 👤 About Me
 
-公開リポジトリで使っているものです。
+- 🎮 ブラウザで遊べるゲームと、小さなウェブアプリを作っています
+- 🤖 **Claude Code** を使って、小さなプロダクトを公開して確かめています
+- ✍️ 学んだことは [Qiita](https://qiita.com/kaion) に書いています
+- 💬 [X](https://x.com/kai0nnn) でもどうぞ
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+---
 
-## GitHub
+## 🎮 Now building
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaionn&show_icons=true&hide_border=true&theme=default#gh-light-mode-only)](https://github.com/kaionn)
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaionn&show_icons=true&hide_border=true&theme=github_dark#gh-dark-mode-only)](https://github.com/kaionn)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://gravity-shodo.kaion-lab.com/">
+        <img src="./docs/profile-cards/gravity-shodo.png" alt="重力に従わない書道教室" width="100%" />
+      </a>
+      <p>
+        <strong>重力に従わない書道教室</strong><br />
+        書いた線が、時間とともに空へ昇っていく書道<br />
+        <a href="https://gravity-shodo.kaion-lab.com/">遊ぶ →</a>
+      </p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://uragiri-reversi.kaion-engin.workers.dev">
+        <img src="./docs/profile-cards/uragiri-reversi.png" alt="裏切りリバーシ" width="100%" />
+      </a>
+      <p>
+        <strong>裏切りリバーシ</strong><br />
+        石が寝返り、しゃべり出すリバーシ<br />
+        <a href="https://uragiri-reversi.kaion-engin.workers.dev">遊ぶ →</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://tech-news.kaion-lab.com/">
+        <img src="./docs/profile-cards/tech-news.png" alt="Tech News Daily" width="100%" />
+      </a>
+      <p>
+        <strong>Tech News Daily</strong><br />
+        毎朝更新する、テックニュースのダイジェスト<br />
+        <a href="https://tech-news.kaion-lab.com/">読む →</a>
+      </p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://tech-learn.kaion-lab.com/">
+        <img src="./docs/profile-cards/tech-learn.png" alt="Tech Learning Daily" width="100%" />
+      </a>
+      <p>
+        <strong>Tech Learning Daily</strong><br />
+        毎朝更新する、技術の基礎解説<br />
+        <a href="https://tech-learn.kaion-lab.com/">読む →</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 Tech Stack
+
+<div align="center">
+
+### Languages & Frameworks
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+
+### Tools
+
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflareworkers&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![iTerm2](https://img.shields.io/badge/iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="./profile-summary-card-output/github/0-profile-details.svg#gh-light-mode-only" alt="Profile Details" />
+<img src="./profile-summary-card-output/dracula/0-profile-details.svg#gh-dark-mode-only" alt="Profile Details" />
+
+<img src="./profile-summary-card-output/github/1-repos-per-language.svg#gh-light-mode-only" alt="Repos per Language" />
+<img src="./profile-summary-card-output/github/2-most-commit-language.svg#gh-light-mode-only" alt="Most Commit Language" />
+<img src="./profile-summary-card-output/dracula/1-repos-per-language.svg#gh-dark-mode-only" alt="Repos per Language" />
+<img src="./profile-summary-card-output/dracula/2-most-commit-language.svg#gh-dark-mode-only" alt="Most Commit Language" />
+
+<img src="./profile-summary-card-output/github/3-stats.svg#gh-light-mode-only" alt="Stats" />
+<img src="./profile-summary-card-output/github/4-productive-time.svg#gh-light-mode-only" alt="Productive Time" />
+<img src="./profile-summary-card-output/dracula/3-stats.svg#gh-dark-mode-only" alt="Stats" />
+<img src="./profile-summary-card-output/dracula/4-productive-time.svg#gh-dark-mode-only" alt="Productive Time" />
+
+<img src="https://streak-stats.demolab.com?user=kaionn&theme=default&hide_border=true#gh-light-mode-only" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=kaionn&theme=dracula&hide_border=true&background=0D1117#gh-dark-mode-only" alt="GitHub Streak" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=kaionn&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8#gh-light-mode-only" alt="Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=8#gh-dark-mode-only" alt="Trophies" />
+
+</div>
+
+---
+
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+1. 💪 Opened PR [#4](https://github.com/kaionn/kaionn.github.io/pull/4) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+2. 💪 Opened PR [#2](https://github.com/kaionn/kaionn/pull/2) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
+3. 💪 Opened PR [#2](https://github.com/kaionn/kaionn.github.io/pull/2) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+4. 💪 Opened PR [#2](https://github.com/kaionn/tech-learning-daily/pull/2) in [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+5. 💪 Opened PR [#12](https://github.com/kaionn/tech-news-daily/pull/12) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+6. 📝 Opened issue [#305](https://github.com/kaionn/pain-collector/issues/305) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+<!--END_SECTION:activity-->
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=github-light&hide_border=true#gh-light-mode-only" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaionn&theme=dracula&hide_border=true&bg_color=0D1117#gh-dark-mode-only" alt="Activity Graph" />
+
+</div>
+
+---
+
+## 💻 Development Environment
+
+| Category | Choice |
+|:--------:|:------:|
+| 🖥️ **OS** | macOS |
+| ⌨️ **Editor** | VS Code |
+| 🐚 **Shell** | zsh |
+| 📟 **Terminal** | iTerm2 |
+| ⌨️ **Keyboard** | HHKB Hybrid |
+| 🖱️ **Pointing** | Magic Trackpad |
+| ❤️ **Language** | Ruby |
+
+---
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+<img src="https://raw.githubusercontent.com/kaionn/kaionn/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/kaionn/kaionn/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Snake animation" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=C9B6F0&height=100&section=footer#gh-light-mode-only" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=100&section=footer#gh-dark-mode-only" width="100%" alt="footer" />
+
+</div>
