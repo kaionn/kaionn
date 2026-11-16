@@ -1,10 +1,16 @@
 name: Update Recent Activity
 
-# プロフィール README から Recent Activity 欄を外したため、
-# 自動実行は止める。再開するときは README に
-# <!--START_SECTION:activity--> を戻してから trigger を足す。
 on:
+  # 毎日 UTC 20:40 に実行（JST 5:40）。schedule は実測 20〜60 分遅延するため
+  # 実際の反映は JST 6:00 前後になる想定。ジャスト時刻は混雑するので分をずらしている
+  schedule:
+    - cron: "40 20 * * *"
+  # 手動実行
   workflow_dispatch:
+  # main ブランチへの push 時（初回生成用）
+  push:
+    branches:
+      - main
 
 jobs:
   update-activity:
@@ -31,11 +37,11 @@ jobs:
                    if .type=="PushEvent" then
                      "⬆️ Pushed to [\(.repo.name)](https://github.com/\(.repo.name))"
                    elif .type=="IssuesEvent" and .payload.action=="opened" then
-                     "📝 Opened issue [#\(.payload.issue.number)](\(.payload.issue.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
+                     "📝 Opened issue [#\(.payload.issue.number)](https://github.com/\(.repo.name)/issues/\(.payload.issue.number)) in [\(.repo.name)](https://github.com/\(.repo.name))"
                    elif .type=="PullRequestEvent" and .payload.action=="opened" then
-                     "💪 Opened PR [#\(.payload.pull_request.number)](\(.payload.pull_request.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
+                     "💪 Opened PR [#\(.payload.pull_request.number)](https://github.com/\(.repo.name)/pull/\(.payload.pull_request.number)) in [\(.repo.name)](https://github.com/\(.repo.name))"
                    elif .type=="PullRequestEvent" and .payload.action=="closed" and .payload.pull_request.merged then
-                     "🎉 Merged PR [#\(.payload.pull_request.number)](\(.payload.pull_request.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
+                     "🎉 Merged PR [#\(.payload.pull_request.number)](https://github.com/\(.repo.name)/pull/\(.payload.pull_request.number)) in [\(.repo.name)](https://github.com/\(.repo.name))"
                    elif .type=="ReleaseEvent" and .payload.action=="published" then
                      "🚀 Published release [\(.payload.release.tag_name)](\(.payload.release.html_url)) in [\(.repo.name)](https://github.com/\(.repo.name))"
                    elif .type=="CreateEvent" and .payload.ref_type=="repository" then
