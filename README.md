@@ -33,6 +33,38 @@
 
 ---
 
+## 💼 Career
+
+フルスタックエンジニアとして働いています。業務では Rails / Go でバックエンドを書き、React / Next.js のフロントエンドから、Terraform と GitHub Actions による AWS の構築・運用まで担当しています。
+
+個人開発では、ブラウザで遊べるゲームを公開し、毎朝自動で更新される技術ニュースと基礎解説も回しています。
+
+<table width="100%">
+  <tr>
+    <td width="24%" valign="top"><strong>2021/12 – 現在</strong><br />フルスタックエンジニア</td>
+    <td valign="top">業務システムの申請・承認ワークフロー基盤を担当しています。承認経路エンジン（Go / gRPC）から申請基盤（Rails API）、埋め込みウィジェット（React / TypeScript）まで横断しています。</td>
+  </tr>
+  <tr>
+    <td width="24%" valign="top"><strong>2020/09 – 2021/11</strong><br />研究開発エンジニア</td>
+    <td valign="top">水槽 IoT システムを 1 人で 0 から設計・構築・運用しました（RaspberryPi / Arduino + Rails / AWS）。</td>
+  </tr>
+  <tr>
+    <td width="24%" valign="top"><strong>2018/04 – 2020/08</strong><br />広告システムエンジニア</td>
+    <td valign="top">インターネット広告の入稿システムを担当しました。ターゲット属性の新規追加や、SpringBoot のメジャーバージョンアップ（Java / k8s）を行いました。</td>
+  </tr>
+</table>
+
+### できること
+
+| 領域 | 内容 |
+|:-----|:-----|
+| Backend | Rails / Go / gRPC で API と業務ロジックを設計・実装できます |
+| Frontend | React / Next.js / TypeScript で画面や埋め込みウィジェットを作れます |
+| Infra | AWS を Terraform と GitHub Actions で構築・運用できます。Cloudflare も使います |
+| 個人開発 | ブラウザゲームや、毎朝自動で更新される技術サイトを公開できます |
+
+---
+
 ## 🎮 Now building
 
 <table width="100%">
@@ -98,11 +130,16 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-D30001?style=for-the-badge&logo=rubyonrails&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge)
 
 ### Tools
 
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflareworkers&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -141,10 +178,8 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=kaionn&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-  <img src="https://github-profile-trophy.vercel.app/?username=kaionn&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies" />
-</picture>
+<img src="./docs/trophies/trophy-light.svg#gh-light-mode-only" alt="Trophies" />
+<img src="./docs/trophies/trophy-dark.svg#gh-dark-mode-only" alt="Trophies" />
 
 </div>
 
