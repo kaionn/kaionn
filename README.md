@@ -71,11 +71,11 @@
     </td>
     <td width="50%" valign="top" align="center">
       <a href="https://uragiri-reversi.kaion-engin.workers.dev">
-        <img src="./docs/profile-cards/uragiri-reversi.png" alt="裏切りリバーシ" width="100%" />
+        <img src="./docs/profile-cards/uragiri-reversi.png" alt="裏切りリバーシの題字と、石が吹き出しでしゃべる盤面" width="100%" />
       </a>
       <p>
         <strong>裏切りリバーシ</strong><br />
-        石が寝返り、しゃべり出すリバーシ<br />
+        寝返った石がしゃべるリバーシ<br />
         <a href="https://uragiri-reversi.kaion-engin.workers.dev">遊ぶ →</a>
       </p>
     </td>
