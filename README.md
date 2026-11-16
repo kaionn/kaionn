@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="./docs/profile-banners/header-light.svg#gh-light-mode-only" width="100%" alt="header" />
-<img src="./docs/profile-banners/header-dark.svg#gh-dark-mode-only" width="100%" alt="header" />
+<img src="./docs/profile-banners/header-light-v2.svg#gh-light-mode-only" width="100%" alt="header" />
+<img src="./docs/profile-banners/header-dark-v2.svg#gh-dark-mode-only" width="100%" alt="header" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games" />
@@ -207,7 +207,7 @@
 
 <div align="center">
 
-<img src="./docs/profile-banners/footer-light.svg#gh-light-mode-only" width="100%" alt="footer" />
-<img src="./docs/profile-banners/footer-dark.svg#gh-dark-mode-only" width="100%" alt="footer" />
+<img src="./docs/profile-banners/footer-light-v2.svg#gh-light-mode-only" width="100%" alt="footer" />
+<img src="./docs/profile-banners/footer-dark-v2.svg#gh-dark-mode-only" width="100%" alt="footer" />
 
 </div>
