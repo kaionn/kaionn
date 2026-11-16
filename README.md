@@ -150,12 +150,13 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#4](https://github.com/kaionn/kaionn.github.io/pull/4) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-2. 💪 Opened PR [#2](https://github.com/kaionn/kaionn/pull/2) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
-3. 💪 Opened PR [#2](https://github.com/kaionn/kaionn.github.io/pull/2) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-4. 💪 Opened PR [#2](https://github.com/kaionn/tech-learning-daily/pull/2) in [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
-5. 💪 Opened PR [#12](https://github.com/kaionn/tech-news-daily/pull/12) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-6. 📝 Opened issue [#305](https://github.com/kaionn/pain-collector/issues/305) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
+1. 💪 Opened PR [#3](https://github.com/kaionn/kaionn/pull/3) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
+2. 💪 Opened PR [#4](https://github.com/kaionn/kaionn.github.io/pull/4) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+3. 💪 Opened PR [#2](https://github.com/kaionn/kaionn/pull/2) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
+4. 💪 Opened PR [#2](https://github.com/kaionn/kaionn.github.io/pull/2) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+5. 💪 Opened PR [#2](https://github.com/kaionn/tech-learning-daily/pull/2) in [kaionn/tech-learning-daily](https://github.com/kaionn/tech-learning-daily)
+6. 💪 Opened PR [#12](https://github.com/kaionn/tech-news-daily/pull/12) in [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+7. 📝 Opened issue [#305](https://github.com/kaionn/pain-collector/issues/305) in [kaionn/pain-collector](https://github.com/kaionn/pain-collector)
 <!--END_SECTION:activity-->
 
 ---
