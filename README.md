@@ -4,8 +4,8 @@
 <img src="./docs/profile-banners/header-dark-v2.svg#gh-dark-mode-only" width="100%" alt="header" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games" />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%3BBuilding+small+web+apps+and+browser+games" alt="Typing SVG" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%3BFrom+API+to+UI+to+AWS" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%8B+Hi%2C+I%27m+kaion%3B%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%3BFrom+API+to+UI+to+AWS" alt="Typing SVG" />
 </picture>
 
 <p>
@@ -26,18 +26,17 @@
 
 ## 👤 About Me
 
-- 🎮 ブラウザで遊べるゲームと、小さなウェブアプリを作っています
-- 🤖 **Claude Code** を使って、小さなプロダクトを公開して確かめています
-- ✍️ 学んだことは [Qiita](https://qiita.com/kaion) に書いています
-- 💬 [X](https://x.com/kai0nnn) でもどうぞ
+フルスタックエンジニアです。API と業務ロジックから画面、Terraform で組む AWS の基盤まで、ひとつの機能を端から端まで作ります。いまは業務システムの申請・承認基盤で、Go / gRPC、Rails API、React の画面を横断して開発しています。
+
+- 🌱 **ゼロから運用まで**：水槽 IoT システムを、機器からクラウドまで 1 人で設計・構築・運用しました
+- 🤖 **AI で作って回す**：Claude Code で小さなプロダクトを公開して確かめ、毎朝自動で更新される技術サイトも回しています
+- 🎮 **趣味でも作る**：ブラウザで遊べるゲームを作っています
+
+学んだことは [Qiita](https://qiita.com/kaion) に、近況は [X](https://x.com/kai0nnn) に書いています。
 
 ---
 
 ## 💼 Career
-
-フルスタックエンジニアとして働いています。業務では Rails / Go でバックエンドを書き、React / Next.js のフロントエンドから、Terraform と GitHub Actions による AWS の構築・運用まで担当しています。
-
-個人開発では、ブラウザで遊べるゲームを公開し、毎朝自動で更新される技術ニュースと基礎解説も回しています。
 
 <table width="100%">
   <tr>
@@ -53,15 +52,6 @@
     <td valign="top">インターネット広告の入稿システムを担当しました。ターゲット属性の新規追加や、SpringBoot のメジャーバージョンアップ（Java / k8s）を行いました。</td>
   </tr>
 </table>
-
-### できること
-
-| 領域 | 内容 |
-|:-----|:-----|
-| Backend | Rails / Go / gRPC で API と業務ロジックを設計・実装できます |
-| Frontend | React / Next.js / TypeScript で画面や埋め込みウィジェットを作れます |
-| Infra | AWS を Terraform と GitHub Actions で構築・運用できます。Cloudflare も使います |
-| 個人開発 | ブラウザゲームや、毎朝自動で更新される技術サイトを公開できます |
 
 ---
 
