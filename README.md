@@ -118,9 +118,6 @@
 
 <div align="center">
 
-<img src="./profile-summary-card-output/github/0-profile-details.svg#gh-light-mode-only" alt="Profile Details" />
-<img src="./profile-summary-card-output/dracula/0-profile-details.svg#gh-dark-mode-only" alt="Profile Details" />
-
 <img src="./profile-summary-card-output/github/1-repos-per-language.svg#gh-light-mode-only" alt="Repos per Language" />
 <img src="./profile-summary-card-output/github/2-most-commit-language.svg#gh-light-mode-only" alt="Most Commit Language" />
 <img src="./profile-summary-card-output/dracula/1-repos-per-language.svg#gh-dark-mode-only" alt="Repos per Language" />
