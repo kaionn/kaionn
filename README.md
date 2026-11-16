@@ -178,14 +178,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#9](https://github.com/kaionn/kaionn/pull/9) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
-2. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-3. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
-4. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-5. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
-6. 💪 Opened PR [#7](https://github.com/kaionn/kaionn/pull/7) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
-7. 💪 Opened PR [#5](https://github.com/kaionn/kaionn.github.io/pull/5) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-8. 💪 Opened PR [#6](https://github.com/kaionn/kaionn/pull/6) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
+1. 💪 Opened PR [#6](https://github.com/kaionn/kaionn.github.io/pull/6) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+2. 💪 Opened PR [#10](https://github.com/kaionn/kaionn/pull/10) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
+3. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+4. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
+5. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+6. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
+7. 💪 Opened PR [#7](https://github.com/kaionn/kaionn/pull/7) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
+8. 💪 Opened PR [#5](https://github.com/kaionn/kaionn.github.io/pull/5) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 <!--END_SECTION:activity-->
 
 ---
