@@ -178,7 +178,7 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#9](https://github.com/kaionn/kaionn.github.io/pull/9) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+1. 💪 Opened PR [#10](https://github.com/kaionn/kaionn.github.io/pull/10) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 2. 💪 Opened PR [#12](https://github.com/kaionn/kaionn/pull/12) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
 3. 💪 Opened PR [#8](https://github.com/kaionn/kaionn.github.io/pull/8) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 4. 💪 Opened PR [#11](https://github.com/kaionn/kaionn/pull/11) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
