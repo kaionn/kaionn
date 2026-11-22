@@ -178,14 +178,14 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
-2. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
-3. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-4. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
-5. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-6. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
-7. 💪 Opened PR [#10](https://github.com/kaionn/kaionn.github.io/pull/10) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-8. 💪 Opened PR [#12](https://github.com/kaionn/kaionn/pull/12) in [kaionn/kaionn](https://github.com/kaionn/kaionn)
+1. 💪 Opened PR [#5](https://github.com/kaionn/mogumogu-checker/pull/5) in [kaionn/mogumogu-checker](https://github.com/kaionn/mogumogu-checker)
+2. ⬆️ Pushed to [kaionn/tech-news-daily](https://github.com/kaionn/tech-news-daily)
+3. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
+4. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+5. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
+6. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
+7. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
+8. 💪 Opened PR [#10](https://github.com/kaionn/kaionn.github.io/pull/10) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 <!--END_SECTION:activity-->
 
 ---
