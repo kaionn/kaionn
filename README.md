@@ -185,7 +185,7 @@
 5. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 6. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
 7. ⬆️ Pushed to [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
-8. ⬆️ Pushed to [kaionn/kaionn](https://github.com/kaionn/kaionn)
+8. 💪 Opened PR [#10](https://github.com/kaionn/kaionn.github.io/pull/10) in [kaionn/kaionn.github.io](https://github.com/kaionn/kaionn.github.io)
 <!--END_SECTION:activity-->
 
 ---
